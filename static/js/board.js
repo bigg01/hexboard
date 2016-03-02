@@ -152,7 +152,7 @@ hex.board = (function board(d3, Rx) {
         .attr('y', -point.y + honeycomb.size);
 
       pattern.append('image')
-        .attr('xlink:href', '/img/redhat.svg')
+        .attr('xlink:href', '/img/sixlogo.jpg')
         .attr('width', (honeycomb.cols - 1) * honeycomb.spacing.x)
         .attr('height', (honeycomb.rows - 1) * honeycomb.spacing.y)
         .attr('x', -point.x + 2 * honeycomb.spacing.x)
